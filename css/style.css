@@ -140,6 +140,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--primary-white-color);
     text-align: center;
+    
 }
 
 /* footer */
@@ -204,11 +205,13 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     border-radius: 4px;
+    
 }
 
 .primary-btn:hover,
 .primary-btn:focus {
     background-color: var(--accent-color);
+    outline: 1px solid #000000;
 }
 
 
@@ -223,6 +226,8 @@ img {
     margin-right: auto;
     display: block;
     border: none;
+    outline: 1px solid #000000;
+    
 }
 
 /* features section */
